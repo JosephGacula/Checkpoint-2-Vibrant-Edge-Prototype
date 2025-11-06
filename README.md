@@ -2,7 +2,6 @@
 
 TODO:
 
-Title Screen
 
 Button Navigation
 
@@ -17,5 +16,3 @@ Slice
 Enemy
 
 Color System
-
-Save and Load
