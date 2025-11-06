@@ -2,17 +2,12 @@
 
 TODO:
 
+Button Mapping
 
-Button Navigation
-
-Save & Load
-
-Character Controller/Button Mapping
-
-Shoot
-
-Slice
+Implement new input system.
 
 Enemy
 
-Color System
+3 Color System
+
+Goalpost
