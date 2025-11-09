@@ -1,4 +1,4 @@
-# Checkpoint-2-Vibrant-Edge-Prototype
+# Vibrant-Edge-Prototype
 
 ## Game Pitch (Updated)
 Ever wonder what a cross between Megaman X and Splatoon would play like? Try Vibrant Edge! This is a fast-paced 2D action platformer where you play as a Ninja with color coded weapons fighting against color coded enemies. Rush through levels, defeat enemies, and earn that S rank. The world is counting on you to wipe the canvas of evil clean.
