@@ -7,6 +7,8 @@ public class Weapon : MonoBehaviour
     public GameObject bulletPrefab;
     public GameObject slashPrefab;
 
+    public Animator animator;
+
     public int weaponType;
 
     // Update is called once per frame
@@ -35,11 +37,14 @@ public class Weapon : MonoBehaviour
 
         if (Input.GetButtonDown("Fire1"))
         {
+            animator.SetTrigger("Shoot");
             Shoot();
+           
         }
 
         if (Input.GetButtonDown("Fire2"))
         {
+            animator.SetTrigger("Slash");
             Slash();
         }
     }
@@ -70,7 +75,7 @@ public class Weapon : MonoBehaviour
         {
             bulletScript.colorType = weaponType;
         }
-
+        
         Destroy(bulletToDestroy, 2f);
     }
 
