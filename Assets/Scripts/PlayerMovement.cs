@@ -4,6 +4,9 @@ public class PlayerMovement : MonoBehaviour
 {
     public CharacterController2D controller;
     public Animator animator;
+    public AudioSource audioSource;
+    public AudioClip jumpSFX;
+    
 
     float horizontalMove = 0f;
     public float runSpeed = 40f;
@@ -23,6 +26,7 @@ public class PlayerMovement : MonoBehaviour
         {
             jump = true;
             animator.SetBool("IsJumping", true);
+            audioSource.PlayOneShot(jumpSFX);
         }
 
         if (Input.GetButtonDown("Sprint"))

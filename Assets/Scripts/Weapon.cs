@@ -8,6 +8,9 @@ public class Weapon : MonoBehaviour
     public GameObject slashPrefab;
 
     public Animator animator;
+    public AudioSource audioSource;
+    public AudioClip shootSFX;
+    public AudioClip slashSFX;
 
     public int weaponType;
 
@@ -38,6 +41,7 @@ public class Weapon : MonoBehaviour
         if (Input.GetButtonDown("Fire1"))
         {
             animator.SetTrigger("Shoot");
+            audioSource.PlayOneShot(shootSFX);
             Shoot();
            
         }
@@ -45,6 +49,7 @@ public class Weapon : MonoBehaviour
         if (Input.GetButtonDown("Fire2"))
         {
             animator.SetTrigger("Slash");
+            audioSource.PlayOneShot(slashSFX);
             Slash();
         }
     }
