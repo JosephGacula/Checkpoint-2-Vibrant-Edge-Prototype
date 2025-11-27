@@ -10,7 +10,11 @@ public class PlayerMovement : MonoBehaviour
 
     float horizontalMove = 0f;
     public float runSpeed = 40f;
-    bool jump = false;
+    //bool jump = false;
+    bool jumpPressed = false;
+    bool jumpHeld = false;
+    bool sprintPressed = false;
+    bool sprintHeld = false;
 
     float sprint = 1f;
 
@@ -24,14 +28,21 @@ public class PlayerMovement : MonoBehaviour
 
         if (Input.GetButtonDown("Jump"))
         {
-            jump = true;
+            jumpPressed = true;
+            jumpHeld = true;
             animator.SetBool("IsJumping", true);
             audioSource.PlayOneShot(jumpSFX);
         }
 
+        if (Input.GetButtonUp("Jump"))
+        {
+            jumpHeld = false;
+        }
+
         if (Input.GetButtonDown("Sprint"))
         {
-            sprint = 10f;
+            //sprint = 10f;
+
         }
         else
         {
@@ -50,7 +61,7 @@ public class PlayerMovement : MonoBehaviour
     void FixedUpdate()
     {
 
-        controller.Move(horizontalMove * sprint * Time.fixedDeltaTime, false, jump);
-        jump = false;
+        controller.Move(horizontalMove * sprint * Time.fixedDeltaTime, false, jumpPressed,jumpHeld);
+        jumpPressed = false;
     }
 }
