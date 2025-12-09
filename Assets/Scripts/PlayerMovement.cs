@@ -22,31 +22,35 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frames
     void Update()
     {
-        horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
-
-        animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
-
-        if (Input.GetButtonDown("Jump"))
+        if (!PauseMenu.isPaused)
         {
-            jumpPressed = true;
-            jumpHeld = true;
-            animator.SetBool("IsJumping", true);
-            audioSource.PlayOneShot(jumpSFX);
-        }
 
-        if (Input.GetButtonUp("Jump"))
-        {
-            jumpHeld = false;
-        }
+            horizontalMove = Input.GetAxisRaw("Horizontal") * runSpeed;
 
-        if (Input.GetButtonDown("Sprint"))
-        {
-            //sprint = 10f;
+            animator.SetFloat("Speed", Mathf.Abs(horizontalMove));
 
-        }
-        else
-        {
-             sprint = 1f;
+            if (Input.GetButtonDown("Jump"))
+            {
+                jumpPressed = true;
+                jumpHeld = true;
+                animator.SetBool("IsJumping", true);
+                audioSource.PlayOneShot(jumpSFX);
+            }
+
+            if (Input.GetButtonUp("Jump"))
+            {
+                jumpHeld = false;
+            }
+
+            if (Input.GetButtonDown("Sprint"))
+            {
+                //sprint = 10f;
+
+            }
+            else
+            {
+                sprint = 1f;
+            }
         }
     }
 

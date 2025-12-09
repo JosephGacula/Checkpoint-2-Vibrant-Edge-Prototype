@@ -1,4 +1,6 @@
 using UnityEngine;
+using UnityEngine.U2D.Animation;
+
 
 public class Weapon : MonoBehaviour
 {
@@ -13,41 +15,51 @@ public class Weapon : MonoBehaviour
     public AudioClip slashSFX;
 
     public int weaponType;
+    public SpriteResolver resolver;
 
     // Update is called once per frame
 
-
+    private void Start()
+    {
+        resolver = GetComponent<SpriteResolver>();
+    }
     void Update()
     {
-        if (Input.GetButtonDown("ColorSwitch1"))
+        if (!PauseMenu.isPaused)
         {
-            weaponType = 0;
-        }
+            if (Input.GetButtonDown("ColorSwitch1"))
+            {
+                weaponType = 0;
+                SetHeadbandColor("Red");
+            }
 
-        if (Input.GetButtonDown("ColorSwitch2"))
-        {
-            weaponType = 1;
-        }
+            if (Input.GetButtonDown("ColorSwitch2"))
+            {
+                weaponType = 1;
+                SetHeadbandColor("Green");
+            }
 
-        if (Input.GetButtonDown("ColorSwitch3"))
-        {
-            weaponType = 2;
-        }
+            if (Input.GetButtonDown("ColorSwitch3"))
+            {
+                weaponType = 2;
+                SetHeadbandColor("Blue");
+            }
 
 
-        if (Input.GetButtonDown("Fire1"))
-        {
-            animator.SetTrigger("Shoot");
-            audioSource.PlayOneShot(shootSFX);
-            Shoot();
-           
-        }
+            if (Input.GetButtonDown("Fire1"))
+            {
+                animator.SetTrigger("Shoot");
+                audioSource.PlayOneShot(shootSFX);
+                Shoot();
 
-        if (Input.GetButtonDown("Fire2"))
-        {
-            animator.SetTrigger("Slash");
-            audioSource.PlayOneShot(slashSFX);
-            Slash();
+            }
+
+            if (Input.GetButtonDown("Fire2"))
+            {
+                animator.SetTrigger("Slash");
+                audioSource.PlayOneShot(slashSFX);
+                Slash();
+            }
         }
     }
 
@@ -114,4 +126,16 @@ public class Weapon : MonoBehaviour
 
         }
     }
+
+    public void SetHeadbandColor(string colorLabel)
+    {
+        resolver.SetCategoryAndLabel("Idle", colorLabel);
+        resolver.SetCategoryAndLabel("Dash", colorLabel);
+        resolver.SetCategoryAndLabel("DashShoot", colorLabel);
+        resolver.SetCategoryAndLabel("Shoot", colorLabel);
+        resolver.SetCategoryAndLabel("Jump", colorLabel);
+        resolver.SetCategoryAndLabel("JumpShoot", colorLabel);
+        resolver.SetCategoryAndLabel("Slash", colorLabel);
+    }
+
 }
