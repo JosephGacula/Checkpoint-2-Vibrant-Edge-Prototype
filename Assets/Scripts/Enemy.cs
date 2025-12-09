@@ -7,8 +7,9 @@ using UnityEngine.SocialPlatforms.Impl;
 public class Enemy : MonoBehaviour
 {
     int health;
-    int type; //0 is Red, 1 is Green, 2 is Blue
+    public int type; //0 is Red, 1 is Green, 2 is Blue
     ScoreCounter scoreCounter;
+
 
     void Start()
     {
@@ -20,7 +21,7 @@ public class Enemy : MonoBehaviour
 
 
 
-        health = 20;
+        health = 40;
 
         System.Random rand = new System.Random();
         type = rand.Next(0, 3); //Set enemy type
@@ -62,7 +63,7 @@ public class Enemy : MonoBehaviour
 
                 if (bulletToCheck.colorType == type)
                 {
-                    health -= 5;
+                    health -= 10;
                 }
 
 
@@ -85,7 +86,6 @@ public class Enemy : MonoBehaviour
 
                 Destroy(collision.gameObject);
             }
-
         }
     }
 }

@@ -17,9 +17,6 @@ public class Weapon : MonoBehaviour
     // Update is called once per frame
 
 
-
-
-
     void Update()
     {
         if (Input.GetButtonDown("ColorSwitch1"))
@@ -75,13 +72,15 @@ public class Weapon : MonoBehaviour
             }
         }
 
+
         Bullet bulletScript = bulletToDestroy.GetComponent<Bullet>(); //Sets the bullet type
         if (bulletScript != null)
         {
             bulletScript.colorType = weaponType;
         }
         
-        Destroy(bulletToDestroy, 2f);
+        
+        Destroy(bulletToDestroy, 2f); 
     }
 
     void Slash()
