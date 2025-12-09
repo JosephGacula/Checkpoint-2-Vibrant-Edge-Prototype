@@ -12,7 +12,7 @@ public class EnemyWeapons : MonoBehaviour
     public AudioSource audioSource;
     public AudioClip shootSFX;
     private Transform playerTransform; //for detecting the player
-    public float firingRange = 20f;
+    public float firingRange = 10f;
 
     //possibly bring in player so that they can turn around?
 
@@ -48,7 +48,10 @@ public class EnemyWeapons : MonoBehaviour
     {
          GameObject bulletToDestroy = Instantiate(enemyBullet, firePoint.position, firePoint.rotation);
          SpriteRenderer sr = bulletToDestroy.GetComponent<SpriteRenderer>();
-         Bullet bulletScript = bulletToDestroy.GetComponent<Bullet>();
+         EnemyBullet bulletScript = bulletToDestroy.GetComponent<EnemyBullet>();
+
+         float dir = playerTransform.position.x < transform.position.x ? -1f : 1f;
+        bulletScript.SetDirection(dir);
         
          if (bulletScript != null)
         {

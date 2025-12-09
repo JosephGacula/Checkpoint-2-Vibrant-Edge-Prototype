@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5957460342702001232}
   - component: {fileID: 5430087466177273337}
   - component: {fileID: -5539887426962919302}
+  - component: {fileID: 1222213474480588355}
   m_Layer: 0
   m_Name: Enemy Bullet
   m_TagString: EnemyBullet
@@ -173,11 +174,26 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2614564639978106561}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c76e7317d16d7ec488a966aa0210a48f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  speed: 20
+  rb: {fileID: 5957460342702001232}
+  colorType: 0
+--- !u!114 &1222213474480588355
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2614564639978106561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 987e1b48955f6403dace62e452aa9f4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyBullet
   speed: 20
   rb: {fileID: 5957460342702001232}
   colorType: 0
