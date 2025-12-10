@@ -5,7 +5,7 @@ public class EnemyWeapons : MonoBehaviour
 {
     public Transform firePoint;
     public GameObject enemyBullet;
-    public float fireRate = 2f;
+    public float fireRate = 5f;
     public float nextFire = 0f;
 
     private Enemy mainEnemyScript;

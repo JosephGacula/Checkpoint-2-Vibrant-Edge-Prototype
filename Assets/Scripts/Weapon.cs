@@ -16,6 +16,7 @@ public class Weapon : MonoBehaviour
 
     public int weaponType;
     public SpriteResolver resolver;
+    private string activeVariantLabel = "Red"; 
 
     // Update is called once per frame
 
@@ -23,6 +24,21 @@ public class Weapon : MonoBehaviour
     {
         resolver = GetComponent<SpriteResolver>();
     }
+
+    private void LateUpdate()
+    {
+        // This is the core logic that makes the Sprite Library system work
+        // for dynamic variants.
+        if (resolver != null && !string.IsNullOrEmpty(activeVariantLabel))
+        {
+            // 1. Get the category (e.g., "Dash") set by the Animator/Animation Clip.
+            string currentCategory = resolver.GetCategory();
+
+            // 2. Force the resolver to use that Category and the player's chosen Label ("Green").
+            resolver.SetCategoryAndLabel(currentCategory, activeVariantLabel);
+        }
+    }
+
     void Update()
     {
         if (!PauseMenu.isPaused)
@@ -30,19 +46,19 @@ public class Weapon : MonoBehaviour
             if (Input.GetButtonDown("ColorSwitch1"))
             {
                 weaponType = 0;
-                SetHeadbandColor("Red");
+                SetVariant("Red");
             }
 
             if (Input.GetButtonDown("ColorSwitch2"))
             {
                 weaponType = 1;
-                SetHeadbandColor("Green");
+                SetVariant("Green");
             }
 
             if (Input.GetButtonDown("ColorSwitch3"))
             {
                 weaponType = 2;
-                SetHeadbandColor("Blue");
+                SetVariant("Blue");
             }
 
 
@@ -127,15 +143,10 @@ public class Weapon : MonoBehaviour
         }
     }
 
-    public void SetHeadbandColor(string colorLabel)
+    public void SetVariant(string colorLabel)
     {
-        resolver.SetCategoryAndLabel("Idle", colorLabel);
-        resolver.SetCategoryAndLabel("Dash", colorLabel);
-        resolver.SetCategoryAndLabel("DashShoot", colorLabel);
-        resolver.SetCategoryAndLabel("Shoot", colorLabel);
-        resolver.SetCategoryAndLabel("Jump", colorLabel);
-        resolver.SetCategoryAndLabel("JumpShoot", colorLabel);
-        resolver.SetCategoryAndLabel("Slash", colorLabel);
+        // Store the label; the LateUpdate method will apply it to the current animation.
+        activeVariantLabel = colorLabel;
     }
 
 }

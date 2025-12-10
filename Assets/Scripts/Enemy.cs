@@ -8,6 +8,7 @@ public class Enemy : MonoBehaviour
 {
     int health;
     public int type; //0 is Red, 1 is Green, 2 is Blue
+    public Animator animator;
     ScoreCounter scoreCounter;
 
 
@@ -35,12 +36,15 @@ public class Enemy : MonoBehaviour
             {
                 case 0:
                     sr.color = Color.red;
+                    animator.SetInteger("type", 0);
                     break;
                 case 1:
                     sr.color = Color.green;
+                    animator.SetInteger("type", 2);
                     break;
                 case 2:
                     sr.color = Color.blue;
+                    animator.SetInteger("type", 3);
                     break;
             }
 
