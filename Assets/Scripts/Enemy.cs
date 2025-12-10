@@ -7,8 +7,12 @@ using UnityEngine.SocialPlatforms.Impl;
 public class Enemy : MonoBehaviour
 {
     int health;
-    int type; //0 is Red, 1 is Green, 2 is Blue
+    public int type; //0 is Red, 1 is Green, 2 is Blue
+    public Animator animator;
     ScoreCounter scoreCounter;
+    public AudioSource audioSource;
+    public AudioClip damageSFX;
+
 
     void Start()
     {
@@ -20,7 +24,7 @@ public class Enemy : MonoBehaviour
 
 
 
-        health = 20;
+        health = 30;
 
         System.Random rand = new System.Random();
         type = rand.Next(0, 3); //Set enemy type
@@ -34,12 +38,15 @@ public class Enemy : MonoBehaviour
             {
                 case 0:
                     sr.color = Color.red;
+                    animator.SetInteger("type", 0);
                     break;
                 case 1:
                     sr.color = Color.green;
+                    animator.SetInteger("type", 2);
                     break;
                 case 2:
                     sr.color = Color.blue;
+                    animator.SetInteger("type", 3);
                     break;
             }
 
@@ -54,6 +61,7 @@ public class Enemy : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        audioSource.PlayOneShot(damageSFX);
         if (collision.CompareTag("Bullet"))
         {
             Bullet bulletToCheck = collision.GetComponent<Bullet>();
@@ -62,7 +70,8 @@ public class Enemy : MonoBehaviour
 
                 if (bulletToCheck.colorType == type)
                 {
-                    health -= 5;
+                    
+                    health -= 10;
                 }
 
 
@@ -85,8 +94,8 @@ public class Enemy : MonoBehaviour
 
                 Destroy(collision.gameObject);
             }
-
         }
     }
+
 }
 

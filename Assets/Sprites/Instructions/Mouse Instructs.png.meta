@@ -1,0 +1,1157 @@
+fileFormatVersion: 2
+guid: 5aded8250f622834db2eab275a958938
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4853661902558988040
+    second: Mouse Instructs_0
+  - first:
+      213: -3668228239171152540
+    second: Mouse Instructs_1
+  - first:
+      213: -1740388807135216036
+    second: Mouse Instructs_2
+  - first:
+      213: 2672229165150650476
+    second: Mouse Instructs_3
+  - first:
+      213: -8415491845497614222
+    second: Mouse Instructs_4
+  - first:
+      213: -6964501275119523969
+    second: Mouse Instructs_5
+  - first:
+      213: -3700253458224838076
+    second: Mouse Instructs_6
+  - first:
+      213: 6698169365774857323
+    second: Mouse Instructs_7
+  - first:
+      213: 4307124232712564789
+    second: Mouse Instructs_8
+  - first:
+      213: -7200810081053148950
+    second: Mouse Instructs_9
+  - first:
+      213: 2507836160424047735
+    second: Mouse Instructs_10
+  - first:
+      213: 3293824674261820030
+    second: Mouse Instructs_11
+  - first:
+      213: -5749182023507795995
+    second: Mouse Instructs_12
+  - first:
+      213: -8720789820423369124
+    second: Mouse Instructs_13
+  - first:
+      213: -2119305314517550604
+    second: Mouse Instructs_14
+  - first:
+      213: 8336616650761293790
+    second: Mouse Instructs_15
+  - first:
+      213: -3743714680874386921
+    second: Mouse Instructs_16
+  - first:
+      213: -9072946852767423091
+    second: Mouse Instructs_17
+  - first:
+      213: 8486712009172361103
+    second: Mouse Instructs_18
+  - first:
+      213: 8136233091560429565
+    second: Mouse Instructs_19
+  - first:
+      213: 7837498605538400567
+    second: Mouse Instructs_20
+  - first:
+      213: 1235056453983126944
+    second: Mouse Instructs_21
+  - first:
+      213: 1216051167376809857
+    second: Mouse Instructs_22
+  - first:
+      213: 2883956816929522163
+    second: Mouse Instructs_23
+  - first:
+      213: 2381321963022875215
+    second: Mouse Instructs_24
+  - first:
+      213: 4086716204222477014
+    second: Mouse Instructs_25
+  - first:
+      213: 8741964992637182931
+    second: Mouse Instructs_26
+  - first:
+      213: -8204030577273941129
+    second: Mouse Instructs_27
+  - first:
+      213: -2958642699132757851
+    second: Mouse Instructs_28
+  - first:
+      213: 344051147751541740
+    second: Mouse Instructs_29
+  - first:
+      213: -4672372577019242916
+    second: Mouse Instructs_30
+  - first:
+      213: 3874450528407854051
+    second: Mouse Instructs_31
+  - first:
+      213: -1610076862352380398
+    second: Mouse Instructs_32
+  - first:
+      213: 1631495777338935113
+    second: Mouse Instructs_33
+  - first:
+      213: -5931958550366847247
+    second: Mouse Instructs_34
+  - first:
+      213: 7355984063117120785
+    second: Mouse Instructs_35
+  - first:
+      213: 6317810909276184365
+    second: Mouse Instructs_36
+  - first:
+      213: -1144970836649246301
+    second: Mouse Instructs_37
+  - first:
+      213: 7392019650947944665
+    second: Mouse Instructs_38
+  - first:
+      213: -5983610713398646652
+    second: Mouse Instructs_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mouse Instructs_0
+      rect:
+        serializedVersion: 2
+        x: 809
+        y: 1017
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f8ff16273454acb0800000000000000
+      internalID: -4853661902558988040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse Instructs_1
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 853
+        width: 145
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46595210ad5d71dc0800000000000000
+      internalID: -3668228239171152540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse Instructs_2
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 1026
+        width: 21
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5eb3a3d995e8d7e0800000000000000
+      internalID: -1740388807135216036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse Instructs_3
+      rect:
+        serializedVersion: 2
+        x: 1010
+        y: 849
+        width: 144
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c604e33844aa51520800000000000000
+      internalID: 2672229165150650476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse Instructs_4
+      rect:
+        serializedVersion: 2
+        x: 790
+        y: 981
+        width: 55
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2701be2f0ca263b80800000000000000
+      internalID: -8415491845497614222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse Instructs_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 777
+        width: 81
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f77eeb26dfe195f90800000000000000
+      internalID: -6964501275119523969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse Instructs_6
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 777
+        width: 68
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44a0993a51f06acc0800000000000000
+      internalID: -3700253458224838076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse Instructs_7
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 777
+        width: 51
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b64f96cbc8da4fc50800000000000000
+      internalID: 6698169365774857323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse Instructs_8
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 777
+        width: 121
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5303f466baaf5cb30800000000000000
+      internalID: 4307124232712564789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse Instructs_9
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 847
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae876cff165911c90800000000000000
+      internalID: -7200810081053148950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse Instructs_10
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 777
+        width: 51
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77474f863bf9dc220800000000000000
+      internalID: 2507836160424047735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse Instructs_11
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 777
+        width: 68
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e72eacdf61406bd20800000000000000
+      internalID: 3293824674261820030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse Instructs_12
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 849
+        width: 123
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ef91cbf86dc630b0800000000000000
+      internalID: -5749182023507795995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse Instructs_13
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 823
+        width: 38
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5e82d0fcd789f680800000000000000
+      internalID: -8720789820423369124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse Instructs_14
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 777
+        width: 75
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f975958b07b692e0800000000000000
+      internalID: -2119305314517550604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse Instructs_15
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 777
+        width: 75
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edfcb31bcac91b370800000000000000
+      internalID: 8336616650761293790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse Instructs_16
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 777
+        width: 29
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71a31123557ab0cc0800000000000000
+      internalID: -3743714680874386921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse Instructs_17
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 567
+        width: 303
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d85acce68ea661280800000000000000
+      internalID: -9072946852767423091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse Instructs_18
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 281
+        width: 144
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8f92c99b9bd6c570800000000000000
+      internalID: 8486712009172361103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse Instructs_19
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 435
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df7dc30a3e4b9e070800000000000000
+      internalID: 8136233091560429565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse Instructs_20
+      rect:
+        serializedVersion: 2
+        x: 1115
+        y: 458
+        width: 21
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7395cb6f47364cc60800000000000000
+      internalID: 7837498605538400567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse Instructs_21
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 449
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a5c7312d4dc32110800000000000000
+      internalID: 1235056453983126944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse Instructs_22
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 376
+        width: 73
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18f9134081840e010800000000000000
+      internalID: 1216051167376809857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse Instructs_23
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 338
+        width: 90
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f186a4f17fd50820800000000000000
+      internalID: 2883956816929522163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse Instructs_24
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 413
+        width: 54
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4a70d565b72c0120800000000000000
+      internalID: 2381321963022875215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse Instructs_25
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 209
+        width: 83
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d273824cbee6b830800000000000000
+      internalID: 4086716204222477014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse Instructs_26
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 209
+        width: 29
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d32a0908d2b15970800000000000000
+      internalID: 8741964992637182931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse Instructs_27
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 209
+        width: 68
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 773d42328ad652e80800000000000000
+      internalID: -8204030577273941129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse Instructs_28
+      rect:
+        serializedVersion: 2
+        x: 411
+        y: 209
+        width: 121
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a893e4042ac0f6d0800000000000000
+      internalID: -2958642699132757851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse Instructs_29
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 279
+        width: 29
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cebcb4e22b056c400800000000000000
+      internalID: 344051147751541740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse Instructs_30
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 209
+        width: 51
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c56dd7085e5682fb0800000000000000
+      internalID: -4672372577019242916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse Instructs_31
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 209
+        width: 68
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eb13955a30d4c530800000000000000
+      internalID: 3874450528407854051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse Instructs_32
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 255
+        width: 38
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21e296ecf9bd7a9e0800000000000000
+      internalID: -1610076862352380398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse Instructs_33
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 281
+        width: 106
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94746d4f3cc34a610800000000000000
+      internalID: 1631495777338935113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse Instructs_34
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 281
+        width: 87
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fefa0790237dada0800000000000000
+      internalID: -5931958550366847247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse Instructs_35
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 281
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 115d78f1884b51660800000000000000
+      internalID: 7355984063117120785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse Instructs_36
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 209
+        width: 73
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2f9e7d7c8f5da750800000000000000
+      internalID: 6317810909276184365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse Instructs_37
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 209
+        width: 71
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a10753271f3c10f0800000000000000
+      internalID: -1144970836649246301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse Instructs_38
+      rect:
+        serializedVersion: 2
+        x: 540
+        y: 209
+        width: 29
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d0957b35bab59660800000000000000
+      internalID: 7392019650947944665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mouse Instructs_39
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 0
+        width: 303
+        height: 266
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 488e6a932c1f5fca0800000000000000
+      internalID: -5983610713398646652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Mouse Instructs_0: -4853661902558988040
+      Mouse Instructs_1: -3668228239171152540
+      Mouse Instructs_10: 2507836160424047735
+      Mouse Instructs_11: 3293824674261820030
+      Mouse Instructs_12: -5749182023507795995
+      Mouse Instructs_13: -8720789820423369124
+      Mouse Instructs_14: -2119305314517550604
+      Mouse Instructs_15: 8336616650761293790
+      Mouse Instructs_16: -3743714680874386921
+      Mouse Instructs_17: -9072946852767423091
+      Mouse Instructs_18: 8486712009172361103
+      Mouse Instructs_19: 8136233091560429565
+      Mouse Instructs_2: -1740388807135216036
+      Mouse Instructs_20: 7837498605538400567
+      Mouse Instructs_21: 1235056453983126944
+      Mouse Instructs_22: 1216051167376809857
+      Mouse Instructs_23: 2883956816929522163
+      Mouse Instructs_24: 2381321963022875215
+      Mouse Instructs_25: 4086716204222477014
+      Mouse Instructs_26: 8741964992637182931
+      Mouse Instructs_27: -8204030577273941129
+      Mouse Instructs_28: -2958642699132757851
+      Mouse Instructs_29: 344051147751541740
+      Mouse Instructs_3: 2672229165150650476
+      Mouse Instructs_30: -4672372577019242916
+      Mouse Instructs_31: 3874450528407854051
+      Mouse Instructs_32: -1610076862352380398
+      Mouse Instructs_33: 1631495777338935113
+      Mouse Instructs_34: -5931958550366847247
+      Mouse Instructs_35: 7355984063117120785
+      Mouse Instructs_36: 6317810909276184365
+      Mouse Instructs_37: -1144970836649246301
+      Mouse Instructs_38: 7392019650947944665
+      Mouse Instructs_39: -5983610713398646652
+      Mouse Instructs_4: -8415491845497614222
+      Mouse Instructs_5: -6964501275119523969
+      Mouse Instructs_6: -3700253458224838076
+      Mouse Instructs_7: 6698169365774857323
+      Mouse Instructs_8: 4307124232712564789
+      Mouse Instructs_9: -7200810081053148950
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

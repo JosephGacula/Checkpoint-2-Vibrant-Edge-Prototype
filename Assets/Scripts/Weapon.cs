@@ -1,4 +1,6 @@
 using UnityEngine;
+using UnityEngine.U2D.Animation;
+
 
 public class Weapon : MonoBehaviour
 {
@@ -13,44 +15,67 @@ public class Weapon : MonoBehaviour
     public AudioClip slashSFX;
 
     public int weaponType;
+    public SpriteResolver resolver;
+    private string activeVariantLabel = "Red"; 
 
     // Update is called once per frame
 
+    private void Start()
+    {
+        resolver = GetComponent<SpriteResolver>();
+    }
 
+    private void LateUpdate()
+    {
+        // This is the core logic that makes the Sprite Library system work
+        // for dynamic variants.
+        if (resolver != null && !string.IsNullOrEmpty(activeVariantLabel))
+        {
+            // 1. Get the category (e.g., "Dash") set by the Animator/Animation Clip.
+            string currentCategory = resolver.GetCategory();
 
-
+            // 2. Force the resolver to use that Category and the player's chosen Label ("Green").
+            resolver.SetCategoryAndLabel(currentCategory, activeVariantLabel);
+        }
+    }
 
     void Update()
     {
-        if (Input.GetButtonDown("ColorSwitch1"))
+        if (!PauseMenu.isPaused)
         {
-            weaponType = 0;
-        }
+            if (Input.GetButtonDown("ColorSwitch1"))
+            {
+                weaponType = 0;
+                SetVariant("Red");
+            }
 
-        if (Input.GetButtonDown("ColorSwitch2"))
-        {
-            weaponType = 1;
-        }
+            if (Input.GetButtonDown("ColorSwitch2"))
+            {
+                weaponType = 1;
+                SetVariant("Green");
+            }
 
-        if (Input.GetButtonDown("ColorSwitch3"))
-        {
-            weaponType = 2;
-        }
+            if (Input.GetButtonDown("ColorSwitch3"))
+            {
+                weaponType = 2;
+                SetVariant("Blue");
+            }
 
 
-        if (Input.GetButtonDown("Fire1"))
-        {
-            animator.SetTrigger("Shoot");
-            audioSource.PlayOneShot(shootSFX);
-            Shoot();
-           
-        }
+            if (Input.GetButtonDown("Fire1"))
+            {
+                audioSource.PlayOneShot(shootSFX);
+                animator.SetTrigger("Shoot");
+                Shoot();
 
-        if (Input.GetButtonDown("Fire2"))
-        {
-            animator.SetTrigger("Slash");
-            audioSource.PlayOneShot(slashSFX);
-            Slash();
+            }
+
+            if (Input.GetButtonDown("Fire2"))
+            {
+                audioSource.PlayOneShot(slashSFX);
+                animator.SetTrigger("Slash");
+                Slash();
+            }
         }
     }
 
@@ -75,13 +100,15 @@ public class Weapon : MonoBehaviour
             }
         }
 
+
         Bullet bulletScript = bulletToDestroy.GetComponent<Bullet>(); //Sets the bullet type
         if (bulletScript != null)
         {
             bulletScript.colorType = weaponType;
         }
         
-        Destroy(bulletToDestroy, 2f);
+        
+        Destroy(bulletToDestroy, 2f); 
     }
 
     void Slash()
@@ -115,4 +142,11 @@ public class Weapon : MonoBehaviour
 
         }
     }
+
+    public void SetVariant(string colorLabel)
+    {
+        // Store the label; the LateUpdate method will apply it to the current animation.
+        activeVariantLabel = colorLabel;
+    }
+
 }
