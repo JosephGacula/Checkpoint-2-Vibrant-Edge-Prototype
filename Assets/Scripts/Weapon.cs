@@ -64,16 +64,16 @@ public class Weapon : MonoBehaviour
 
             if (Input.GetButtonDown("Fire1"))
             {
-                animator.SetTrigger("Shoot");
                 audioSource.PlayOneShot(shootSFX);
+                animator.SetTrigger("Shoot");
                 Shoot();
 
             }
 
             if (Input.GetButtonDown("Fire2"))
             {
-                animator.SetTrigger("Slash");
                 audioSource.PlayOneShot(slashSFX);
+                animator.SetTrigger("Slash");
                 Slash();
             }
         }

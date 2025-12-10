@@ -28,7 +28,7 @@ public class DeathPlane : MonoBehaviour
 
 
         }
-        StartCoroutine(ResetLevelAfterDelay(2f));
+        StartCoroutine(ResetLevelAfterDelay(1f));
 
 
     }

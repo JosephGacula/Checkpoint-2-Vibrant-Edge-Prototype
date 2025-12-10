@@ -1,5 +1,6 @@
 using UnityEngine;
 
+
 public class PlayerMovement : MonoBehaviour
 {
     public CharacterController2D controller;
@@ -13,10 +14,11 @@ public class PlayerMovement : MonoBehaviour
     //bool jump = false;
     bool jumpPressed = false;
     bool jumpHeld = false;
-    bool sprintPressed = false;
-    bool sprintHeld = false;
+    
 
     float sprint = 1f;
+
+   
 
 
     // Update is called once per frames

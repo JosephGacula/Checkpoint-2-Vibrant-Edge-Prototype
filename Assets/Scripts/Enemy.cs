@@ -10,6 +10,8 @@ public class Enemy : MonoBehaviour
     public int type; //0 is Red, 1 is Green, 2 is Blue
     public Animator animator;
     ScoreCounter scoreCounter;
+    public AudioSource audioSource;
+    public AudioClip damageSFX;
 
 
     void Start()
@@ -22,7 +24,7 @@ public class Enemy : MonoBehaviour
 
 
 
-        health = 40;
+        health = 30;
 
         System.Random rand = new System.Random();
         type = rand.Next(0, 3); //Set enemy type
@@ -59,6 +61,7 @@ public class Enemy : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        audioSource.PlayOneShot(damageSFX);
         if (collision.CompareTag("Bullet"))
         {
             Bullet bulletToCheck = collision.GetComponent<Bullet>();
@@ -67,6 +70,7 @@ public class Enemy : MonoBehaviour
 
                 if (bulletToCheck.colorType == type)
                 {
+                    
                     health -= 10;
                 }
 
@@ -92,5 +96,6 @@ public class Enemy : MonoBehaviour
             }
         }
     }
+
 }
 
